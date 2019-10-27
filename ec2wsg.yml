@@ -1,1 +1,37 @@
-# comment 
+# https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html?icmpid=docs_cfn_console_designer
+Type: AWS::EC2::Instance
+Properties: 
+  AdditionalInfo: 
+  Affinity: default 
+  AvailabilityZone: String
+  BlockDeviceMappings: 
+  - DeviceName: /dev/one
+    Ebs:
+      VolumeSize: 50
+ 
+  CpuOptions: 
+    CpuOptions
+  CreditSpecification: 
+    CreditSpecification
+  DisableApiTermination: Boolean
+  
+  
+  ImageId: "ami-00c03f7f7f2ec15c3" 
+  InstanceInitiatedShutdownBehavior: terminate
+  InstanceType: t2.micro
+  Ipv6AddressCount: Integer
+  Ipv6Addresses: 
+    - InstanceIpv6Address
+  
+  KeyName: putty3
+  
+  Monitoring: Boolean
+  
+  
+  SecurityGroupIds: 
+    - Larry
+  SecurityGroups: 
+    - Moe 
+  
+  Volumes: 
+    - Volume
